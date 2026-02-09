@@ -1,0 +1,105 @@
+﻿# Git Push Instructions & File Manifest
+
+## Instructions to Push to GitHub
+Run these commands in your VS Code terminal (Ctrl+`):
+
+1. Initialize git (if not already done):
+   git init
+
+2. Add all files:
+   git add .
+
+3. Commit changes:
+   git commit -m "Initial commit including file manifest"
+
+4. Add remote (replace YOUR_REPO_URL):
+   git remote add origin https://github.com/YOUR_USERNAME/aphelion-event.git
+
+5. Push:
+   git branch -M master
+   git push -u origin master
+
+## File List
+.env
+.env.example
+.gitignore
+.nvmrc
+ARCHITECTURE.md
+db.json
+dev.db
+eslint.config.mjs
+file_list.txt
+GUIDE_PRODUCTION.md
+next-env.d.ts
+next.config.ts
+package-lock.json
+package.json
+postcss.config.js
+prisma.config.ts
+PROJECT_STATUS.md
+README.md
+tailwind.config.ts
+tsconfig.json
+vercel.json
+VERCEL_DEPLOY.md
+prisma\schema.prisma
+public\file.svg
+public\globe.svg
+public\next.svg
+public\vercel.svg
+public\window.svg
+scripts\add-temp-products.js
+scripts\populate-gallery-premium.js
+scripts\seed-mock-orders.js
+src\middleware.js
+src\app\favicon.ico
+src\app\globals.css
+src\app\layout.tsx
+src\app\layout_metadata.js
+src\app\page.js
+src\app\page.module.css
+src\app\about\page.js
+src\app\admin\layout.js
+src\app\admin\page.js
+src\app\admin\products\page.js
+src\app\admin\vendors\page.js
+src\app\api\auth\[...nextauth]\route.js
+src\app\api\contact\route.js
+src\app\api\download\[productId]\route.js
+src\app\api\newsletter\route.js
+src\app\api\orders\route.js
+src\app\api\orders\user\route.js
+src\app\api\products\route.js
+src\app\api\products\[id]\route.js
+src\app\api\register\route.js
+src\app\api\seed\route.js
+src\app\api\users\route.js
+src\app\api\users\[id]\route.js
+src\app\api\workshops\route.js
+src\app\blog\page.js
+src\app\blog\[slug]\page.js
+src\app\checkout\page.js
+src\app\checkout\success\[orderId]\page.js
+src\app\contact\page.js
+src\app\dashboard\page.js
+src\app\login\page.js
+src\app\profile\page.js
+src\app\register\page.js
+src\app\sell\page.js
+src\app\services\page.js
+src\app\services\[slug]\page.js
+src\app\shop\page.js
+src\app\shop\[category]\page.js
+src\app\workshops\page.js
+src\components\AuthProvider.js
+src\components\CartSidebar.js
+src\components\Footer.js
+src\components\Footer.module.css
+src\components\Hero.js
+src\components\Hero.module.css
+src\components\Navigation.js
+src\components\Navigation.module.css
+src\components\NewsletterForm.js
+src\components\ShopClient.js
+src\context\CartContext.js
+src\lib\prisma.js

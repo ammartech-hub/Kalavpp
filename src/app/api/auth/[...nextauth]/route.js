@@ -16,11 +16,6 @@ export const authOptions = {
                     return null;
                 }
 
-                // Mock Admin Hardcoded (for easy testing of roles without DB insert)
-                if (credentials.email === "admin@artcommerce.com" && credentials.password === "admin123") {
-                    return { id: "admin-1", name: "System Admin", email: "admin@artcommerce.com", role: "ADMIN" };
-                }
-
                 const user = await prisma.user.findUnique({
                     where: {
                         email: credentials.email
@@ -31,22 +26,8 @@ export const authOptions = {
                     return null;
                 }
 
-                // Check password with bcrypt
-                // Note: user.password should be hashed. If using Mock DB verify hashing.
-                // For simplicity in this demo, we'll try bcrypt compare first. If fail, check plain text (backward compatibility for mock data).
-
-                let isValid = false;
-                try {
-                    isValid = await bcrypt.compare(credentials.password, user.password);
-                } catch (e) {
-                    // Fallback for legacy plain text mock data
-                    isValid = user.password === credentials.password;
-                }
-
-                // Double check plain text specifically for seed data that might not be hashed yet
-                if (!isValid && user.password === credentials.password) {
-                    isValid = true;
-                }
+                // Verify password
+                const isValid = await bcrypt.compare(credentials.password, user.password);
 
                 if (!isValid) {
                     return null;
