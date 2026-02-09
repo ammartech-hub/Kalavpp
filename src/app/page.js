@@ -16,7 +16,7 @@ export default function Home() {
                 {/* Background Image Overlay */}
                 <div className="absolute inset-0 z-0 opacity-40">
                     <Image
-                        src="/images/temp/mumbai-sculpture.jpg"
+                        src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=1600"
                         alt="Background Art"
                         fill
                         style={{ objectFit: 'cover' }}
@@ -64,7 +64,7 @@ export default function Home() {
                         <div className="group cursor-pointer">
                             <div className="relative aspect-[4/5] overflow-hidden bg-gray-100 mb-6">
                                 <Image
-                                    src="/images/temp/relief-art.jpg"
+                                    src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?q=80&w=800"
                                     alt="Ancient Scripts"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -82,7 +82,7 @@ export default function Home() {
                         <div className="group cursor-pointer lg:translate-y-12">
                             <div className="relative aspect-[4/5] overflow-hidden bg-gray-100 mb-6">
                                 <Image
-                                    src="/images/temp/bird-nest.jpg"
+                                    src="https://images.unsplash.com/photo-1452570053594-1b985d6ea890?q=80&w=800"
                                     alt="Hungry Nestlings"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -97,7 +97,7 @@ export default function Home() {
                         <div className="group cursor-pointer">
                             <div className="relative aspect-[4/5] overflow-hidden bg-gray-100 mb-6">
                                 <Image
-                                    src="/images/temp/quilling-portrait.jpg"
+                                    src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=800"
                                     alt="Mangesh Padgaonkar Portrait"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -120,7 +120,7 @@ export default function Home() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
                         <div className="relative aspect-square lg:aspect-[4/5]">
                             <Image
-                                src="/images/temp/foundry-boy.jpg"
+                                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800"
                                 alt="Services"
                                 fill
                                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
