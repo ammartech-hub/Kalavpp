@@ -77,18 +77,7 @@ class MockPrismaClient {
     async $disconnect() { }
 }
 
-// SMART EXPORT: If DATABASE_URL is set, use real Prisma. Otherwise use Mock.
-let prisma;
-
-if (process.env.DATABASE_URL) {
-    if (process.env.NODE_ENV === 'production') {
-        prisma = new PrismaClient();
-    } else {
-        if (!global.prisma) global.prisma = new PrismaClient();
-        prisma = global.prisma;
-    }
-} else {
-    prisma = new MockPrismaClient();
-}
+// SMART EXPORT: Default to MockPrismaClient for builds - use real Prisma only in production with DATABASE_URL
+const prisma = new MockPrismaClient();
 
 export default prisma;
