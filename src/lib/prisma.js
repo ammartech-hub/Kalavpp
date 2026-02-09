@@ -1,4 +1,3 @@
-import { PrismaClient } from '@prisma/client';
 const fs = require('fs');
 const path = require('path');
 
