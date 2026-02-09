@@ -1,0 +1,152 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #D4AF37;
+    /* Gold */
+    text-decoration: none;
+    letter-spacing: -0.02em;
+}
+
+.navLinks {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navLinks {
+        display: none;
+    }
+}
+
+.navItem {
+    position: relative;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    padding: 1rem 0;
+    transition: color 0.2s ease;
+}
+
+.navItem:hover {
+    color: #D4AF37;
+}
+
+.navItem:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Dropdown Container */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* Align left instead of centered for better list flow, or keep center? 
+       Usually centered under item is fine, but list items look better left aligned.
+       Let's keep center but ensure content is left aligned. */
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+
+    background: #ffffff;
+    min-width: 280px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08), 0 5px 15px rgba(0, 0, 0, 0.04);
+    padding: 1.5rem 0;
+    /* Vertical padding */
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* Remove gap, use padding on links */
+    z-index: 100;
+}
+
+.navItem:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Dropdown Header "SERVICES" */
+.dropdownHeader {
+    font-size: 0.65rem;
+    font-weight: 800;
+    color: #D4AF37;
+    /* Gold */
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+/* Links */
+.dropdownLink {
+    padding: 0.75rem 1.5rem;
+    color: #555;
+    font-size: 0.95rem;
+    font-family: var(--font-heading);
+    /* Serif for elegance as in some premium sites? Or Sans? Image font looked serif-ish. Let's use Playfair or Inter. Let's stick to body font for readability or heading for style. Let's try matching the image: it looked like a serif font. */
+    font-family: var(--font-serif, "Playfair Display", serif);
+    /* Wait, variable is --font-heading usually. Let's assume --font-heading is serif. */
+    /* Checks globals.css? No, layout.tsx has `variable: '--font-heading'` for Playfair. */
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: block;
+    background: transparent;
+    border-left: 2px solid transparent;
+    /* Highlight indicator */
+}
+
+.dropdownLink:hover {
+    color: #000;
+    background-color: #f9f9f9;
+    border-left-color: #000;
+    padding-left: 1.75rem;
+    /* Slight shift effect */
+}
+
+.actionBar {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.actionIcon {
+    color: var(--color-secondary);
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.actionIcon:hover {
+    color: var(--color-primary);
+}

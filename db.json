@@ -1,0 +1,1169 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "artist@artcommerce.com",
+      "name": "Elena Vance",
+      "password": "password123",
+      "role": "ARTIST",
+      "createdAt": "2026-02-06T18:59:07.087Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Hungry Nestlings - Nature Photography",
+      "description": "A candid capture of new life. High-resolution print of three hatchlings in their nest.",
+      "price": 85,
+      "image": "/images/temp/bird-nest.jpg",
+      "category": "Digital Art Products",
+      "stock": 10,
+      "artistId": 1
+    },
+    {
+      "id": 102,
+      "name": "Ancient Scripts - Mixed Media Relief",
+      "description": "Textured wall art featuring raised calligraphy in varying Indian scripts with a metallic bronze finish.",
+      "price": 1200,
+      "image": "/images/temp/relief-art.jpg",
+      "category": "Original Artworks",
+      "stock": 1,
+      "artistId": 2
+    },
+    {
+      "id": 103,
+      "name": "Spirit of Mumbai - Kinetic Sculpture",
+      "description": "A vibrant installation piece capturing the essence of Mumbai: Includes the Dabbawala, Local Train, and Kite Festival motifs.",
+      "price": 3500,
+      "image": "/images/temp/mumbai-sculpture.jpg",
+      "category": "Home Decor",
+      "stock": 1,
+      "artistId": 2
+    },
+    {
+      "id": 104,
+      "name": "Portrait of Mangesh Padgaonkar",
+      "description": "Intricate Paper Quilling art paying tribute to the legendary Marathi poet Mangesh Padgaonkar.",
+      "price": 950,
+      "image": "/images/temp/quilling-portrait.jpg",
+      "category": "Original Artworks",
+      "stock": 1,
+      "artistId": 2
+    },
+    {
+      "id": 105,
+      "name": "Light in the Foundry",
+      "description": "Atmospheric photography capturing the play of light and smoke in a rural workshop.",
+      "price": 150,
+      "image": "/images/temp/foundry-boy.jpg",
+      "category": "Digital Art Products",
+      "stock": 25,
+      "artistId": 1
+    },
+    {
+      "id": 1,
+      "name": "Ancient Script Relief",
+      "description": "Textured metallic relief art featuring classical script.",
+      "price": 450,
+      "image": "/images/typography-relief.jpg",
+      "category": "Original Artworks",
+      "stock": 5,
+      "artistId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hungry Nestlings",
+      "description": "Detailed wildlife photography.",
+      "price": 85,
+      "image": "/images/nature-birds.jpg",
+      "category": "Prints & Reproductions",
+      "stock": 20,
+      "artistId": 1
+    },
+    {
+      "id": 3,
+      "name": "Spirit of Mumbai",
+      "description": "Whimsical 3D sculpture celebrating Mumbai.",
+      "price": 600,
+      "image": "/images/mumbai-tribute.jpg",
+      "category": "Handcrafted Items",
+      "stock": 1,
+      "artistId": 1
+    },
+    {
+      "id": 4,
+      "name": "Forged in Smoke",
+      "description": "Atmospheric industrial photography.",
+      "price": 200,
+      "image": "/images/child-and-fire.jpg",
+      "category": "Prints & Reproductions",
+      "stock": 10,
+      "artistId": 1
+    },
+    {
+      "id": 5,
+      "name": "Literary Tribute: Padgaonkar",
+      "description": "Paper quilling portrait.",
+      "price": 350,
+      "image": "/images/paper-quill-portrait.jpg",
+      "category": "Handcrafted Items",
+      "stock": 1,
+      "artistId": 1
+    },
+    {
+      "id": 6,
+      "name": "Monochrome Cityscape",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=600",
+      "category": "Original Artworks",
+      "stock": 3,
+      "artistId": 1
+    },
+    {
+      "id": 7,
+      "name": "Terracotta Vase",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1616489953123-1d686f3b4c10?q=80&w=600",
+      "category": "Handcrafted Items",
+      "stock": 15,
+      "artistId": 1
+    },
+    {
+      "id": 8,
+      "name": "Miniature Castle Ruin",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1589133342557-567c2d1d2b78?q=80&w=600",
+      "category": "Miniature Modeling",
+      "stock": 2,
+      "artistId": 1
+    },
+    {
+      "id": 9,
+      "name": "Warli Folk Painting",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1582201385461-1c5c3789434b?q=80&w=600",
+      "category": "Traditional & Tribal Art",
+      "stock": 8,
+      "artistId": 1
+    },
+    {
+      "id": 10,
+      "name": "Artist Zine Vol. 1",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=600",
+      "category": "Art Books & Zines",
+      "stock": 50,
+      "artistId": 1
+    },
+    {
+      "id": 11,
+      "name": "Premium Sketchbook",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600",
+      "category": "Stationery",
+      "stock": 100,
+      "artistId": 1
+    },
+    {
+      "id": 12,
+      "name": "Abstract Art Tee",
+      "description": "100% Cotton T-shirt featuring original abstract artwork.",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600",
+      "category": "Apparel",
+      "stock": 50,
+      "artistId": 1
+    },
+    {
+      "id": 13,
+      "name": "Canvas Tote Bag",
+      "description": "Eco-friendly tote with printed design.",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?q=80&w=600",
+      "category": "Apparel",
+      "stock": 100,
+      "artistId": 1
+    },
+    {
+      "id": 14,
+      "name": "Artisan Mug",
+      "description": "Ceramic mug with unique glaze.",
+      "price": 18,
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=600",
+      "category": "Home Decor",
+      "stock": 30,
+      "artistId": 1
+    },
+    {
+      "id": 15,
+      "name": "Velvet Cushion Cover",
+      "description": "Soft velvet cushion with printed art.",
+      "price": 28,
+      "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e6?q=80&w=600",
+      "category": "Home Decor",
+      "stock": 25,
+      "artistId": 1
+    },
+    {
+      "id": 16,
+      "name": "Floral Phone Case",
+      "description": "Durable case with floral print.",
+      "price": 22,
+      "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?q=80&w=600",
+      "category": "Accessories",
+      "stock": 40,
+      "artistId": 1
+    },
+    {
+      "id": 17,
+      "name": "Vinyl Sticker Pack",
+      "description": "Set of 5 waterproof stickers.",
+      "price": 8,
+      "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?q=80&w=600",
+      "category": "Accessories",
+      "stock": 200,
+      "artistId": 1
+    },
+    {
+      "id": 18,
+      "name": "Postcard Collection",
+      "description": "Pack of 10 art postcards.",
+      "price": 12,
+      "image": "https://images.unsplash.com/photo-1586952518485-11b180e92764?q=80&w=600",
+      "category": "Accessories",
+      "stock": 150,
+      "artistId": 1
+    },
+    {
+      "id": 19,
+      "name": "Painted Wall Plate",
+      "description": "Decorative ceramic plate for wall hanging.",
+      "price": 55,
+      "image": "https://images.unsplash.com/photo-1615175657805-4f3647413f17?q=80&w=600",
+      "category": "Home Decor",
+      "stock": 10,
+      "artistId": 1
+    },
+    {
+      "id": 20,
+      "name": "Artisanal Lampshade",
+      "description": "Hand-painted fabric lampshade.",
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1513506003011-3b611ddabd26?q=80&w=600",
+      "category": "Home Decor",
+      "stock": 5,
+      "artistId": 1
+    },
+    {
+      "id": 21,
+      "name": "Ornate Photo Frame",
+      "description": "Vintage wooden frame with gold leaf detailing.",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1582582621959-48d27397dc69?q=80&w=600",
+      "category": "Home Decor",
+      "stock": 12,
+      "artistId": 1
+    },
+    {
+      "id": 22,
+      "name": "Art Nouveau Bookmark",
+      "description": "Metal bookmark with intricate design.",
+      "price": 10,
+      "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=600",
+      "category": "Accessories",
+      "stock": 80,
+      "artistId": 1
+    },
+    {
+      "id": 23,
+      "name": "Cyberpunk Cityscape",
+      "description": "High-resolution digital illustration for print or display. (Instant Download)",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 24,
+      "name": "Marble Texture Pack",
+      "description": "10 High-res marble textures for design projects. (Stock Photos)",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1596429105942-c05282362b66?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 25,
+      "name": "Abstract 4K Wallpapers",
+      "description": "Pack of 5 abstract wallpapers for desktop and mobile.",
+      "price": 5,
+      "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 26,
+      "name": "Instagram Minimalist Bundle",
+      "description": "50+ Editable social media templates (Canva/PSD).",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 27,
+      "name": "Procreate Brush Set (Inking)",
+      "description": "Professional inking brushes for digital artists.",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1626785774573-4b7993143c03?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 28,
+      "name": "Serif Font Family",
+      "description": "Elegant serif font with 4 weights and ligatures.",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 29,
+      "name": "Genesis NFT #001",
+      "description": "Exclusive digital collectible authenticated on blockchain.",
+      "price": 500,
+      "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=600",
+      "category": "Digital Art Products",
+      "stock": 1,
+      "artistId": 1
+    },
+    {
+      "id": 201,
+      "name": "Ethereal Landscapes - Oil on Canvas",
+      "description": "A mesmerizing series capturing the quiet beauty of misty mountains. Original oil painting, 24x36 inches.",
+      "price": 1250,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb39279c0f?q=80&w=1000&auto=format&fit=crop",
+      "category": "Original Artworks",
+      "stock": 1,
+      "artistId": 2
+    },
+    {
+      "id": 202,
+      "name": "The Gilded Cage - Sculpture",
+      "description": "Modern bronze sculpture exploring themes of freedom and confinement. Hand-cast with gold leaf accents.",
+      "price": 3800,
+      "image": "https://images.unsplash.com/photo-1551893478-d726eaf0442c?q=80&w=1000&auto=format&fit=crop",
+      "category": "Original Artworks",
+      "stock": 1,
+      "artistId": 2
+    },
+    {
+      "id": 203,
+      "name": "Midnight in Paris - Charcoal",
+      "description": "Atmospheric charcoal sketch of a rainy Parisian street. Framed in vintage oak.",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000&auto=format&fit=crop",
+      "category": "Original Artworks",
+      "stock": 1,
+      "artistId": 2
+    },
+    {
+      "id": 204,
+      "name": "Procreate Master Collection: Oils",
+      "description": "The ultimate brush set for digital painters. Includes 50+ custom brushes mimicking real oil paint texture.",
+      "price": 29,
+      "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1000&auto=format&fit=crop",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 205,
+      "name": "3D Asset Pack: Ancient Ruins",
+      "description": "High-fidelity 3D models of ancient temple ruins, fully textured and game-ready. OBJ/FBX formats.",
+      "price": 49,
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 206,
+      "name": "Modern UI Kit for Artists",
+      "description": "A clean, minimalist UI capability kit designed specifically for art portfolio websites. Figma & Sketch.",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a5638d48?q=80&w=1000&auto=format&fit=crop",
+      "category": "Digital Art Products",
+      "stock": 999,
+      "artistId": 1
+    },
+    {
+      "id": 207,
+      "name": "Organic Cotton Tote - 'Abstract #4'",
+      "description": "Durable, eco-friendly tote bag featuring print 'Abstract #4'. Perfect for carrying art supplies.",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?q=80&w=1000&auto=format&fit=crop",
+      "category": "Merchandise",
+      "stock": 50,
+      "artistId": 1
+    },
+    {
+      "id": 208,
+      "name": "Ceramic Studio Mug",
+      "description": "Hand-thrown ceramic mug with a unique glaze. Each piece is one-of-a-kind.",
+      "price": 32,
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=1000&auto=format&fit=crop",
+      "category": "Merchandise",
+      "stock": 20,
+      "artistId": 2
+    },
+    {
+      "id": 209,
+      "name": "Workshop: Introduction to Pottery",
+      "description": "A 2-day intensive workshop learning the basics of wheel throwing and hand-building.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1565193566173-0923d5a6c559?q=80&w=1000&auto=format&fit=crop",
+      "category": "Workshop",
+      "stock": 10,
+      "artistId": 2
+    },
+    {
+      "id": 210,
+      "name": "Masterclass: Plein Air Painting",
+      "description": "Join us outdoors for a guided session on capturing natural light and landscapes.",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?q=80&w=1000&auto=format&fit=crop",
+      "category": "Workshop",
+      "stock": 15,
+      "artistId": 2
+    },
+    {
+      "id": 211,
+      "name": "Geometric Harmony Print",
+      "description": "Limited edition giclee print of geometric abstraction.",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1000&auto=format&fit=crop",
+      "category": "Original Artworks",
+      "stock": 100,
+      "artistId": 1
+    },
+    {
+      "id": 212,
+      "name": "Fluid Dynamics - Acrylic Pour",
+      "description": "Vibrant acrylic pour on canvas, resin coated for a glass-like finish.",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop",
+      "category": "Original Artworks",
+      "stock": 1,
+      "artistId": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1000,
+      "date": "2026-01-12T17:36:17.143Z",
+      "total": 491,
+      "status": "SHIPPED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 4,
+            "name": "Forged in Smoke",
+            "description": "Atmospheric industrial photography.",
+            "price": 200,
+            "image": "/images/child-and-fire.jpg",
+            "category": "Prints & Reproductions",
+            "stock": 10,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 200
+        },
+        {
+          "product": {
+            "id": 14,
+            "name": "Artisan Mug",
+            "description": "Ceramic mug with unique glaze.",
+            "price": 18,
+            "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=600",
+            "category": "Home Decor",
+            "stock": 30,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 18
+        },
+        {
+          "product": {
+            "id": 13,
+            "name": "Canvas Tote Bag",
+            "description": "Eco-friendly tote with printed design.",
+            "price": 20,
+            "image": "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?q=80&w=600",
+            "category": "Apparel",
+            "stock": 100,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "date": "2026-01-15T17:36:17.147Z",
+      "total": 40,
+      "status": "CANCELLED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 11,
+            "name": "Premium Sketchbook",
+            "price": 25,
+            "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600",
+            "category": "Stationery",
+            "stock": 100,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "date": "2026-01-18T17:36:17.147Z",
+      "total": 415,
+      "status": "DELIVERED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 4,
+            "name": "Forged in Smoke",
+            "description": "Atmospheric industrial photography.",
+            "price": 200,
+            "image": "/images/child-and-fire.jpg",
+            "category": "Prints & Reproductions",
+            "stock": 10,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "date": "2026-01-11T17:36:17.147Z",
+      "total": 620,
+      "status": "PROCESSING",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 28,
+            "name": "Serif Font Family",
+            "description": "Elegant serif font with 4 weights and ligatures.",
+            "price": 40,
+            "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 40
+        },
+        {
+          "product": {
+            "id": 1,
+            "name": "Ancient Script Relief",
+            "description": "Textured metallic relief art featuring classical script.",
+            "price": 450,
+            "image": "/images/typography-relief.jpg",
+            "category": "Original Artworks",
+            "stock": 5,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 450
+        },
+        {
+          "product": {
+            "id": 12,
+            "name": "Abstract Art Tee",
+            "description": "100% Cotton T-shirt featuring original abstract artwork.",
+            "price": 35,
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600",
+            "category": "Apparel",
+            "stock": 50,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 35
+        },
+        {
+          "product": {
+            "id": 28,
+            "name": "Serif Font Family",
+            "description": "Elegant serif font with 4 weights and ligatures.",
+            "price": 40,
+            "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "date": "2026-01-17T17:36:17.147Z",
+      "total": 551,
+      "status": "PROCESSING",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 29,
+            "name": "Genesis NFT #001",
+            "description": "Exclusive digital collectible authenticated on blockchain.",
+            "price": 500,
+            "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 1,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 500
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Postcard Collection",
+            "description": "Pack of 10 art postcards.",
+            "price": 12,
+            "image": "https://images.unsplash.com/photo-1586952518485-11b180e92764?q=80&w=600",
+            "category": "Accessories",
+            "stock": 150,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 12
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Postcard Collection",
+            "description": "Pack of 10 art postcards.",
+            "price": 12,
+            "image": "https://images.unsplash.com/photo-1586952518485-11b180e92764?q=80&w=600",
+            "category": "Accessories",
+            "stock": 150,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "date": "2026-01-17T17:36:17.147Z",
+      "total": 307,
+      "status": "PENDING",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 17,
+            "name": "Vinyl Sticker Pack",
+            "description": "Set of 5 waterproof stickers.",
+            "price": 8,
+            "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?q=80&w=600",
+            "category": "Accessories",
+            "stock": 200,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 8
+        },
+        {
+          "product": {
+            "id": 20,
+            "name": "Artisanal Lampshade",
+            "description": "Hand-painted fabric lampshade.",
+            "price": 75,
+            "image": "https://images.unsplash.com/photo-1513506003011-3b611ddabd26?q=80&w=600",
+            "category": "Home Decor",
+            "stock": 5,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 75
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Vinyl Sticker Pack",
+            "description": "Set of 5 waterproof stickers.",
+            "price": 8,
+            "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?q=80&w=600",
+            "category": "Accessories",
+            "stock": 200,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 8
+        },
+        {
+          "product": {
+            "id": 19,
+            "name": "Painted Wall Plate",
+            "description": "Decorative ceramic plate for wall hanging.",
+            "price": 55,
+            "image": "https://images.unsplash.com/photo-1615175657805-4f3647413f17?q=80&w=600",
+            "category": "Home Decor",
+            "stock": 10,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "date": "2026-02-08T17:36:17.147Z",
+      "total": 160,
+      "status": "CANCELLED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 23,
+            "name": "Cyberpunk Cityscape",
+            "description": "High-resolution digital illustration for print or display. (Instant Download)",
+            "price": 45,
+            "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 45
+        },
+        {
+          "product": {
+            "id": 12,
+            "name": "Abstract Art Tee",
+            "description": "100% Cotton T-shirt featuring original abstract artwork.",
+            "price": 35,
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600",
+            "category": "Apparel",
+            "stock": 50,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 35
+        },
+        {
+          "product": {
+            "id": 27,
+            "name": "Procreate Brush Set (Inking)",
+            "description": "Professional inking brushes for digital artists.",
+            "price": 15,
+            "image": "https://images.unsplash.com/photo-1626785774573-4b7993143c03?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "date": "2026-02-02T17:36:17.147Z",
+      "total": 90,
+      "status": "DELIVERED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 23,
+            "name": "Cyberpunk Cityscape",
+            "description": "High-resolution digital illustration for print or display. (Instant Download)",
+            "price": 45,
+            "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "date": "2026-01-20T17:36:17.147Z",
+      "total": 1028,
+      "status": "SHIPPED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 17,
+            "name": "Vinyl Sticker Pack",
+            "description": "Set of 5 waterproof stickers.",
+            "price": 8,
+            "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?q=80&w=600",
+            "category": "Accessories",
+            "stock": 200,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 8
+        },
+        {
+          "product": {
+            "id": 25,
+            "name": "Abstract 4K Wallpapers",
+            "description": "Pack of 5 abstract wallpapers for desktop and mobile.",
+            "price": 5,
+            "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 5
+        },
+        {
+          "product": {
+            "id": 29,
+            "name": "Genesis NFT #001",
+            "description": "Exclusive digital collectible authenticated on blockchain.",
+            "price": 500,
+            "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 1,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "date": "2026-01-17T17:36:17.147Z",
+      "total": 15,
+      "status": "DELIVERED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 27,
+            "name": "Procreate Brush Set (Inking)",
+            "description": "Professional inking brushes for digital artists.",
+            "price": 15,
+            "image": "https://images.unsplash.com/photo-1626785774573-4b7993143c03?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "date": "2026-02-01T17:36:17.147Z",
+      "total": 185,
+      "status": "PENDING",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 23,
+            "name": "Cyberpunk Cityscape",
+            "description": "High-resolution digital illustration for print or display. (Instant Download)",
+            "price": 45,
+            "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 45
+        },
+        {
+          "product": {
+            "id": 21,
+            "name": "Ornate Photo Frame",
+            "description": "Vintage wooden frame with gold leaf detailing.",
+            "price": 40,
+            "image": "https://images.unsplash.com/photo-1582582621959-48d27397dc69?q=80&w=600",
+            "category": "Home Decor",
+            "stock": 12,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "date": "2026-01-30T17:36:17.147Z",
+      "total": 95,
+      "status": "DELIVERED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 20,
+            "name": "Artisanal Lampshade",
+            "description": "Hand-painted fabric lampshade.",
+            "price": 75,
+            "image": "https://images.unsplash.com/photo-1513506003011-3b611ddabd26?q=80&w=600",
+            "category": "Home Decor",
+            "stock": 5,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 75
+        },
+        {
+          "product": {
+            "id": 25,
+            "name": "Abstract 4K Wallpapers",
+            "description": "Pack of 5 abstract wallpapers for desktop and mobile.",
+            "price": 5,
+            "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 5
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "date": "2026-01-31T17:36:17.147Z",
+      "total": 120,
+      "status": "PENDING",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 26,
+            "name": "Instagram Minimalist Bundle",
+            "description": "50+ Editable social media templates (Canva/PSD).",
+            "price": 30,
+            "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600",
+            "category": "Digital Art Products",
+            "stock": 999,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 30
+        },
+        {
+          "product": {
+            "id": 20,
+            "name": "Artisanal Lampshade",
+            "description": "Hand-painted fabric lampshade.",
+            "price": 75,
+            "image": "https://images.unsplash.com/photo-1513506003011-3b611ddabd26?q=80&w=600",
+            "category": "Home Decor",
+            "stock": 5,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "date": "2026-01-13T17:36:17.147Z",
+      "total": 85,
+      "status": "DELIVERED",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 12,
+            "name": "Abstract Art Tee",
+            "description": "100% Cotton T-shirt featuring original abstract artwork.",
+            "price": 35,
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600",
+            "category": "Apparel",
+            "stock": 50,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "date": "2026-01-28T17:36:17.147Z",
+      "total": 442,
+      "status": "PENDING",
+      "userId": 1,
+      "customer": {
+        "name": "Elena Vance",
+        "email": "artist@artcommerce.com",
+        "address": "123 Mock Lane, New York, NY"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 12,
+            "name": "Abstract Art Tee",
+            "description": "100% Cotton T-shirt featuring original abstract artwork.",
+            "price": 35,
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600",
+            "category": "Apparel",
+            "stock": 50,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 35
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Forged in Smoke",
+            "description": "Atmospheric industrial photography.",
+            "price": 200,
+            "image": "/images/child-and-fire.jpg",
+            "category": "Prints & Reproductions",
+            "stock": 10,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 200
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Hungry Nestlings",
+            "description": "Detailed wildlife photography.",
+            "price": 85,
+            "image": "/images/nature-birds.jpg",
+            "category": "Prints & Reproductions",
+            "stock": 20,
+            "artistId": 1
+          },
+          "quantity": 2,
+          "price": 85
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Floral Phone Case",
+            "description": "Durable case with floral print.",
+            "price": 22,
+            "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?q=80&w=600",
+            "category": "Accessories",
+            "stock": 40,
+            "artistId": 1
+          },
+          "quantity": 1,
+          "price": 22
+        }
+      ]
+    }
+  ]
+}

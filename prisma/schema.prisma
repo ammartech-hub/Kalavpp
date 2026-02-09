@@ -1,0 +1,91 @@
+// This schema.prisma reflects the data model of the Kalavpp platform.
+// Although currently running with a Mock JSON Adapter (for flexibility),
+// this schema is ready for production migration to PostgreSQL.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// User Model - Supports RBAC (Admin, Artist, User)
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String   // Hashed in production
+  role      Role     @default(USER)
+  address   String?
+  phone     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  // Relations
+  orders    Order[]
+  products  Product[] // Products created by this artist (if role is ARTIST)
+}
+
+enum Role {
+  USER
+  ARTIST
+  ADMIN
+}
+
+// Product Model - Covers Physical, Digital, and Service items
+model Product {
+  id          Int      @id @default(autoincrement())
+  name        String
+  category    String
+  price       Float
+  image       String
+  description String?
+  type        ProductType @default(PHYSICAL)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Relations
+  artistId    Int?     // Link to the Creator
+  artist      User?    @relation(fields: [artistId], references: [id])
+}
+
+enum ProductType {
+  PHYSICAL
+  DIGITAL
+  SERVICE
+}
+
+// Order Model - Stores transaction details
+model Order {
+  id        Int      @id @default(autoincrement())
+  date      DateTime @default(now())
+  total     Float
+  status    OrderStatus @default(PENDING)
+  
+  // Relations
+  userId    Int?     // Registered user (optional for guest checkout)
+  user      User?    @relation(fields: [userId], references: [id])
+  customer  Json     // Snapshot of customer details at checkout (name, email, address)
+  items     Json     // Snapshot of cart items (simplifies order history without complex join tables for now)
+}
+
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+}
+
+// Workshop Model - For booking system
+model Workshop {
+  id          Int      @id @default(autoincrement())
+  title       String
+  instructor  String
+  date        DateTime
+  location    String
+  price       Float
+  capacity    Int
+  enrolled    Int      @default(0)
+}

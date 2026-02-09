@@ -1,0 +1,96 @@
+.heroContainer {
+    display: flex;
+    height: calc(100vh - 80px);
+    /* Adjust for header height */
+    overflow: hidden;
+    position: relative;
+}
+
+.splitSection {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: flex 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem;
+}
+
+.splitSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease;
+    z-index: 1;
+}
+
+.splitSection:hover {
+    flex: 1.5;
+}
+
+.splitSection:hover::before {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    transform: translateY(20px);
+    opacity: 0.8;
+    transition: all 0.5s ease;
+}
+
+.splitSection:hover .content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.heroBtn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.heroBtn:hover {
+    background: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .heroContainer {
+        flex-direction: column;
+    }
+}
